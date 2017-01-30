@@ -1,0 +1,24 @@
+<% include partials/header %>
+<div class="container">
+    <div class="row">
+<h1 style="text-align: center;">Add one more pair of AJ to my Foot Locker!</h1>
+<div style="width: 50%;margin: 25px auto;">
+    <form action="/AJFootLocker" method="POST">
+        <div class="form-group">
+        <input class="form-control" type="text" name="name" placeholder="Insert AJ Name">
+        </div>
+        <div class="form-group">
+        <input class="form-control" type="text" name="image" placeholder="Insert Image URL of the AJ">
+        </div> 
+        <div class="form-group">
+        <input class="form-control" type="text" name="desc" placeholder="Insert any Description of the AJ">
+        </div> 
+        <div class="form-group">
+        <button class="btn btn-lg btn-primary btn-block">Submit</button>
+        </div>
+    </form>
+<a href="/AJFootLocker">Go back</a>
+</div>
+</div>
+</div>
+<% include partials/footer %>
